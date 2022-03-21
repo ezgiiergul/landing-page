@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    width: 1200px;
+}
+header{
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo{
+    font-size: 18px;
+    line-height: 27px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+}
+li{
+list-style: none;
+margin: 0 24px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.login{
+    display: flex;
+}
+.login-button{
+padding: 12px 25px;
+margin-right: 10px;
+color: #000000;
+}
+.primary-button{
+padding: 12px 25px;
+background: linear-gradient(89.64deg, #746BDB -7.92%, #8359E3 95.42%, #8A52E7 151.95%);
+width: 150px;
+height: 50px;
+display: flex;
+text-align: center;
+justify-content: center;
+color: white;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.information > h1{
+    width: 523px;
+height: 288px;
+left: 50px;
+top: 206px;
+    font-weight: 500;
+font-size: 80px;
+line-height: 120.5%;
+}
+.description {
+    width: 410.37px;
+height: 87px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    margin: 15px 0;
+}
+
+.code-img img {
+    width: 500px;
+}
+
+.buttons{
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+
+.buttons > a  {
+    margin-right: 15px;
+}
+
+.start-button{
+ background: linear-gradient(89.64deg, #746BDB -7.92%, #8359E3 95.42%, #8A52E7 151.95%);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+width: 180px;
+height: 45px;
+color: white;
+}
