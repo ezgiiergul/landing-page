@@ -1,1 +1,1 @@
-# landing-page
+# basic landing-page entrance
